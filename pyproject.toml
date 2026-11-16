@@ -1,0 +1,19 @@
+[project]
+name = "explaining-learning-to-defer"
+version = "1.0.0"
+description = "Code for the paper Explaining Learning to Defer"
+requires-python = ">=3.11"
+# Exact versions: the cached runs are reproduced bit for bit with these.
+dependencies = [
+    "fastparquet==2026.3.0",
+    "ipykernel",
+    "joblib==1.5.1",
+    "matplotlib==3.11.2",
+    "nbclient",
+    "numpy==2.3.1",
+    "pandas==2.3.1",
+    "scikit-learn==1.7.1",
+    "scipy==1.16.0",
+    "torch==2.7.1",
+    "tqdm==4.67.1",
+]
